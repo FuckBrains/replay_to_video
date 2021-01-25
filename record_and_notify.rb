@@ -3,6 +3,7 @@ require 'open-uri'
 require 'screen-recorder'
 require 'open3'
 require 'json'
+require 'dotenv'
 
 bot = Discordrb::Commands::CommandBot.new(
   token: ENV['TOKEN'],
@@ -17,6 +18,7 @@ loop do
   sleep 1
   replay_names = Dir::entries("replays")
   if replay_names.size > 2
+    recorder = {}
     replays_ctime = {}
     replay_names.each do |replay_name|
       unless replay_name == "." or replay_name == ".."
@@ -26,16 +28,16 @@ loop do
     target_replay = replays_ctime.min{ |x, y| x[1] <=> y[1] }[0]
     p target_replay
     system "start ./replays/#{target_replay}"
-    advanced = {f: 'dshow', i: 'audio="ステレオ ミキサー (Realtek High Definition Audio)"'}
-    @recorder = ScreenRecorder::Window.new(title: 'WoT Blitz', output: "replay.mp4", advanced: advanced)
+    #advanced = {f: 'dshow', i: 'audio="ステレオ ミキサー (Realtek High Definition Audio)"'}
+    recorder = ScreenRecorder::Window.new(title: 'WoT Blitz', output: "replay.mkv")#, advanced: advanced)
 
-    sleep 20
-    @recorder.start
+    sleep 23
+    recorder.start
     p "start recording"
     # sleep 30
     sleep 450
     p "stop recording"
-    @recorder.stop
+    recorder.stop
     system "taskkill /im wotblitz.exe /f"
     # system "python upload_video.py --file='test.MP4' \ --title='Sample Movie' \ --description='This is a sample movie.' \ --category='22' \ --privacyStatus='private'"
 
@@ -49,11 +51,14 @@ loop do
     upload_command = "python upload.py"
     p "start upload"
     stdin, stdout, stderr = Open3.capture3(upload_command)
-    p "#{stdin}"
-    if stdin == "error"
-      bot.send_message(channel_id,"unable to upload to youtube")
+    stdout.force_encoding('UTF-8')
+    stdout = stdout.encode("UTF-16BE", "UTF-8", :invalid => :replace, :undef => :replace, :replace => '?').encode("UTF-8")
+    video_id = stdout[/video_id = (.*?)\n/,1]
+    p video_id
+    if video_id == nil
+      bot.send_message(channel_id,stdout)
     else
-      bot.send_message(channel_id,"https://www.youtube.com/watch?v=#{stdin}")
+      bot.send_message(channel_id,"https://www.youtube.com/watch?v=#{video_id}")
     end
     File.delete("./replays/#{target_replay}")
   end

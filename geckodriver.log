@@ -1,0 +1,568 @@
+1611449940700	geckodriver	INFO	geckodriver 0.19.0
+1611449940712	geckodriver	INFO	Listening on 127.0.0.1:49858
+1611449943869	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofile.Hog5o4CT2lcM"
+1611449945697	Marionette	TRACE	Marionette enabled
+1611449945760	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1611449948284	Marionette	TRACE	Received observer notification marionette-startup-requested
+1611449948284	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1611449948306	Marionette	TRACE	All scripts recorded.
+1611449948306	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1611449948306	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1611449948307	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1611449948307	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1611449948307	Marionette	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1611449948308	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1611449948310	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1611449948310	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1611449948310	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1611449948310	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1611449948311	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1611449948311	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1611449948314	Marionette	INFO	Listening on port 49867
+1611449948314	Marionette	DEBUG	Marionette is listening
+1611449949384	Marionette	DEBUG	Remote agent not available for this build and platform
+1611449949385	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:49911
+1611449949395	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1611449949395	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:181: ... t@chrome://marionette/content/server.js:241:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20\n"},null]
+1611449949403	Marionette	DEBUG	Closed connection 0
+1611450257561	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1611450257561	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1611450257562	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1611450257562	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1611450257562	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1611450257562	Marionette	DEBUG	Resetting recommended pref browser.toolbars.bookmarks.visibility
+1611450257562	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1611450257563	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1611450257563	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1611450257564	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1611450257564	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1611450257564	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1611450257564	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1611450257564	Marionette	INFO	Stopped listening on port 49867
+1611450257565	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ing recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1611450108036	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1611450108037	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1611450108037	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1611450108037	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1611450108037	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1611450108039	Marionette	INFO	Listening on port 49969
+1611450108039	Marionette	DEBUG	Marionette is listening
+1611450108420	Marionette	DEBUG	Remote agent not available for this build and platform
+1611450108421	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:49984
+1611450108438	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1611450108438	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:181: ... t@chrome://marionette/content/server.js:241:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20\n"},null]
+1611450108445	Marionette	DEBUG	Closed connection 0
+1611450269594	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1611450269594	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1611450269594	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1611450269594	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1611450269594	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1611450269594	Marionette	DEBUG	Resetting recommended pref browser.toolbars.bookmarks.visibility
+1611450269594	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1611450269595	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1611450269595	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1611450269596	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1611450269596	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1611450269596	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1611450269596	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1611450269596	Marionette	INFO	Stopped listening on port 49969
+1611450269596	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611450538623	geckodriver	INFO	geckodriver 0.19.0
+1611450538623	geckodriver	INFO	Listening on 127.0.0.1:50073
+1611450541747	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofile.cAUKScfVsmCa"
+1611450542816	Marionette	TRACE	Marionette enabled
+1611450542877	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1611450545307	Marionette	TRACE	Received observer notification marionette-startup-requested
+1611450545308	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1611450545375	Marionette	TRACE	All scripts recorded.
+1611450545375	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1611450545376	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1611450545376	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1611450545376	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1611450545376	Marionette	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1611450545377	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1611450545379	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1611450545379	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1611450545379	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1611450545379	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1611450545380	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1611450545380	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1611450545383	Marionette	INFO	Listening on port 50081
+1611450545384	Marionette	DEBUG	Marionette is listening
+1611450545459	Marionette	DEBUG	Remote agent not available for this build and platform
+1611450545460	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50096
+1611450545474	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1611450545474	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:181: ... t@chrome://marionette/content/server.js:241:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20\n"},null]
+1611450545492	Marionette	DEBUG	Closed connection 0
+1611451323394	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1611451323394	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1611451323395	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1611451323395	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1611451323395	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1611451323395	Marionette	DEBUG	Resetting recommended pref browser.toolbars.bookmarks.visibility
+1611451323395	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1611451323396	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1611451323396	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1611451323396	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1611451323397	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1611451323397	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1611451323397	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1611451323397	Marionette	INFO	Stopped listening on port 50081
+1611451323397	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611451545364	geckodriver	INFO	Listening on 127.0.0.1:50289
+1611451548489	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofileZ7bDWO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611451556884	Marionette	INFO	Listening on port 50297
+1611451557028	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611451558259	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1611451635989	Marionette	INFO	Stopped listening on port 50297
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611452307710	geckodriver	INFO	Listening on 127.0.0.1:50578
+1611452310741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofileJYk9BV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611452313745	Marionette	INFO	Listening on port 50586
+1611452314094	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611452315301	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1611452332417	Marionette	INFO	Stopped listening on port 50586
+1611453083118	geckodriver	INFO	Listening on 127.0.0.1:49724
+1611453086150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofiletZCELr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611453093552	Marionette	INFO	Listening on port 49732
+1611453093898	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611453095212	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1611453116578	Marionette	INFO	Stopped listening on port 49732
+1611453337722	geckodriver	INFO	Listening on 127.0.0.1:49831
+1611453340800	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofileHVmveN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611453346154	Marionette	INFO	Listening on port 49839
+1611453346397	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 2480, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1611453350921	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1611453385185	Marionette	INFO	Stopped listening on port 49839
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+1611454694408	geckodriver	INFO	Listening on 127.0.0.1:50101
+1611454697443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofileM73jAl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611454701436	Marionette	INFO	Listening on port 50110
+1611454701848	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611454702972	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1611454733421	Marionette	INFO	Stopped listening on port 50110
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611455825305	geckodriver	INFO	Listening on 127.0.0.1:50276
+1611455828321	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofiletjdJqO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611455832457	Marionette	INFO	Listening on port 50285
+1611455832780	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611455833919	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1611455866297	Marionette	INFO	Stopped listening on port 50285
+1611456095964	geckodriver	INFO	Listening on 127.0.0.1:50397
+1611456099026	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofilerx8TJX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611456103036	Marionette	INFO	Listening on port 50407
+1611456103484	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611456104654	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1611456135715	Marionette	INFO	Stopped listening on port 50407
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1611457603513	geckodriver	INFO	Listening on 127.0.0.1:50737
+1611457606567	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofile4X0n0X"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611457610831	Marionette	INFO	Listening on port 50746
+1611457611087	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611457612240	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1611457643175	Marionette	INFO	Stopped listening on port 50746
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+1611458320888	geckodriver	INFO	Listening on 127.0.0.1:50935
+1611458323970	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofile3L1Xhu"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611458328396	Marionette	INFO	Listening on port 50944
+1611458328490	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611458329583	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1611458361819	Marionette	INFO	Stopped listening on port 50944
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1611458639299	geckodriver	INFO	Listening on 127.0.0.1:51073
+1611458642354	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofile92nkPH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611458646419	Marionette	INFO	Listening on port 51081
+1611458646830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611458647875	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1611458679757	Marionette	INFO	Stopped listening on port 51081
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611458895240	geckodriver	INFO	Listening on 127.0.0.1:51196
+1611458898286	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofilefqyIb4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611458902776	Marionette	INFO	Listening on port 51205
+1611458902821	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611458903989	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1611458933316	Marionette	INFO	Stopped listening on port 51205
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611459734890	geckodriver	INFO	Listening on 127.0.0.1:51354
+1611459737985	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofileCQEAZJ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611459741754	Marionette	INFO	Listening on port 51362
+1611459742011	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611459742984	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 1867 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 1867 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611459773243	Marionette	INFO	Stopped listening on port 51362
+1611460082171	geckodriver	INFO	Listening on 127.0.0.1:51496
+1611460085236	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofilejULcRI"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611460089230	Marionette	INFO	Listening on port 51505
+1611460089756	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611460090796	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 3082 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 3082 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611460121295	Marionette	INFO	Stopped listening on port 51505
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611460661689	geckodriver	INFO	Listening on 127.0.0.1:51675
+1611460664768	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofileLSgSdC"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611460668753	Marionette	INFO	Listening on port 51684
+1611460669228	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611460670280	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 7278 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 7278 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611460704918	Marionette	INFO	Stopped listening on port 51684
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+1611460843775	geckodriver	INFO	Listening on 127.0.0.1:51802
+1611460846848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofilecvgRBH"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611460850685	Marionette	INFO	Listening on port 51811
+1611460850814	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611460852007	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 3665 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 3665 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611460885527	Marionette	INFO	Stopped listening on port 51811
+[Parent 10124, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1611461435335	geckodriver	INFO	Listening on 127.0.0.1:51950
+1611461438400	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofile32vOQJ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611461442885	Marionette	INFO	Listening on port 51958
+1611461442978	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611461444028	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 4796 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 4796 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611461473802	Marionette	INFO	Stopped listening on port 51958
+1611462197523	geckodriver	INFO	Listening on 127.0.0.1:52099
+1611462200589	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofilerVg8Xv"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611462205599	Marionette	INFO	Listening on port 52107
+1611462205690	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611462207012	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 4292 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 4292 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611462238534	Marionette	INFO	Stopped listening on port 52107
+1611463422059	geckodriver	INFO	Listening on 127.0.0.1:52290
+1611463425132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofileDFSfhW"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611463431827	Marionette	INFO	Listening on port 52298
+1611463432062	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611463433357	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 633 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 633 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611463464753	Marionette	INFO	Stopped listening on port 52298
+1611464167639	geckodriver	INFO	Listening on 127.0.0.1:49766
+1611464170709	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofilevSCeRC"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611464174243	Marionette	INFO	Listening on port 49776
+1611464174751	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611464176121	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 6824 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 6824 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611464205163	Marionette	INFO	Stopped listening on port 49776
+1611464446189	geckodriver	INFO	Listening on 127.0.0.1:49911
+1611464449221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofilel7YFuz"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611464453077	Marionette	INFO	Listening on port 49919
+1611464453147	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611464454122	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 5392 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 5392 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611464483700	Marionette	INFO	Stopped listening on port 49919
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611464828187	geckodriver	INFO	Listening on 127.0.0.1:50216
+1611464831252	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofile6fHKhK"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611464834973	Marionette	INFO	Listening on port 50225
+1611464835253	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611464836328	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 2787 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 2787 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611464863918	Marionette	INFO	Stopped listening on port 50225
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/s/desktop/b70e86a1/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+1611464961265	geckodriver	INFO	Listening on 127.0.0.1:50343
+1611464964338	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofilei81SIm"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611464967965	Marionette	INFO	Listening on port 50352
+1611464968315	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611464969404	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 5921 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 5921 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611464998108	Marionette	INFO	Stopped listening on port 50352
+1611465457392	geckodriver	INFO	Listening on 127.0.0.1:50483
+1611465460444	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofileCZ0ce4"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611465464326	Marionette	INFO	Listening on port 50492
+1611465464478	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611465467067	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 843 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 843 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611465493795	Marionette	INFO	Stopped listening on port 50492
+1611465596410	geckodriver	INFO	Listening on 127.0.0.1:50608
+1611465599492	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofilevZBu5K"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611465603326	Marionette	INFO	Listening on port 50617
+1611465603489	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611465604589	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 1839 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 1839 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611465632195	Marionette	INFO	Stopped listening on port 50617
+1611465961616	geckodriver	INFO	Listening on 127.0.0.1:50774
+1611465964672	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofileMZoKCX"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611465968472	Marionette	INFO	Listening on port 50783
+1611465968633	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611465969654	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 2478 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 2478 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611465997832	Marionette	INFO	Stopped listening on port 50783
+1611466092434	geckodriver	INFO	Listening on 127.0.0.1:50902
+1611466095471	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofilerlYYZl"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611466099390	Marionette	INFO	Listening on port 50911
+1611466099909	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611466100930	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 6499 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 6499 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611466130690	Marionette	INFO	Stopped listening on port 50911
+1611466214841	geckodriver	INFO	Listening on 127.0.0.1:51024
+1611466217897	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofileTy9CaM"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611466221688	Marionette	INFO	Listening on port 51032
+1611466221826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611466222928	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 3246 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 3246 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611466252354	Marionette	INFO	Stopped listening on port 51032
+1611467098439	geckodriver	INFO	Listening on 127.0.0.1:49762
+1611467101486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofileTkX14n"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611467104496	Marionette	INFO	Listening on port 49770
+1611467104825	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611467107195	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 5723 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 5723 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611467135013	Marionette	INFO	Stopped listening on port 49770
+1611467651830	geckodriver	INFO	Listening on 127.0.0.1:49907
+1611467654880	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofile1D3vLA"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611467657577	Marionette	INFO	Listening on port 49915
+1611467657667	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611467658738	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 475 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/js/bg/g5QZoih9stKfLJhMV8oZl63M6PLiSxZXRSymt97467M.js line 1 > eval line 475 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611467685382	Marionette	INFO	Stopped listening on port 49915
